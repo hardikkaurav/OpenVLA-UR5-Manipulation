@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Generated logs
+openvla_realtime5/logs/
+openvla_realtime5/ur_log/
+
+# Verification outputs
+dataset_verification/results/
+dataset_verification/instruction_comparison_results/
+dataset_verification/run_log.txt
+
+# Data
+data/
+rlds_output/
+rlds_v2_test/
+rlds_compat_test/
+*.npy
+
+# Model weights
+*.pt
+*.pth
+*.bin
+*.safetensors

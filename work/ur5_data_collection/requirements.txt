@@ -1,0 +1,19 @@
+# UR5 Data Collection Dependencies
+# --------------------------------
+
+# UR5 RTDE communication
+ur-rtde>=1.5.6
+
+# Camera capture
+opencv-python>=4.8.0
+pyrealsense2>=2.54.1
+
+# Numerical operations
+numpy>=1.24.0
+
+# Arduino gripper communication
+pyserial>=3.5
+
+# (Optional) For RLDS conversion later
+# tensorflow>=2.15.0
+# tensorflow-datasets>=4.9.0
